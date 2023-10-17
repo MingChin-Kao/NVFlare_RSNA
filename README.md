@@ -3,8 +3,8 @@
 - 請下載此 repo，使用終端機開啟，並進入您學校的資料夾中。
 
 	```bash
-		cd NVFlare_RSNA/ncyu
-		cd NVFlare_RSNA/ntunhs
+	cd NVFlare_RSNA/ncyu
+	cd NVFlare_RSNA/ntunhs
 	```
 
 - 資料夾中總共會有三個檔案分別為
@@ -16,6 +16,8 @@
     ```bash
     bash install.sh
     ```
+    - 執行前可能會需要您輸入您的使用者密碼
+      ![image](https://github.com/MingChin-Kao/NVFlare_RSNA/blob/main/screenshot/need_pwd.png)
     
 - 若要開始 Federated Learning，則執行以下指令。
     
@@ -24,7 +26,7 @@
     ```
     
     - 成功連線截圖
-      
+      ![image](https://github.com/MingChin-Kao/NVFlare_RSNA/blob/main/screenshot/connect_success.png)
         
     - 如果測試連線成功，請寄送郵件通知我們，我們的信箱地址如下。若在測試過程中遇到任何問題，請附上截圖一併回報，感謝您。
         - kcc.cs09@nycu.edu.tw
