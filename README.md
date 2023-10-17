@@ -36,3 +36,5 @@
     ```bash
     bash stop_fl.sh
     ```
+    - 請輸入 `y` 確認結束 Federated Learning
+      ![image](https://github.com/MingChin-Kao/NVFlare_RSNA/blob/main/screenshot/stop_fl.png)
