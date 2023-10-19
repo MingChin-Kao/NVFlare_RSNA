@@ -4,7 +4,8 @@
 
 	```bash
 	cd NVFlare_RSNA/ncyu
-	cd NVFlare_RSNA/ntunhs
+	cd NVFlare_RSNA/ntunhs-1
+    cd NVFlare_RSNA/ntunhs-2
 	```
 
 - 資料夾中總共會有三個檔案分別為
