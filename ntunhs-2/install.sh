@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SITE_NAME=site-3
-FILEID=1OoRkFc-ZfbREq3oN6cVv4mIj3M4BoYcs
+FILEID=1lnvo2DEq946wEJZyHx35qxnCA8-IeoU1
 FILENAME=${SITE_NAME}-datas.zip
 
 # 添加deadsnakes PPA並安裝Python 3.8
