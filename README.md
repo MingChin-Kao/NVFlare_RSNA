@@ -19,6 +19,9 @@
     ```
     - 執行前可能會需要您輸入您的使用者密碼
       ![image](https://github.com/MingChin-Kao/NVFlare_RSNA/blob/main/screenshot/need_pwd.png)
+
+    - 若之前有安裝過，安裝過程系統會問您是否需要覆蓋之前的檔案(如下圖反白處)，請輸入「A」並按下Enter，系統會幫您覆蓋掉所有舊檔案
+      ![image](https://github.com/MingChin-Kao/NVFlare_RSNA/blob/main/screenshot/replace.png)
     
 - 若要開始 Federated Learning，則執行以下指令。
     
