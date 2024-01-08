@@ -11,7 +11,7 @@
 - 資料夾中總共會有三個檔案分別為
     - install.sh: 環境設定與建置(只須執行一次)
     - start_fl.sh : 啟動 Federated Learning
-    - stop_fl.sh : 關閉 Federated Leaning
+    - stop_fl.sh : 關閉 Federated Learning
 - 初次請先執行 install.sh，等待相關套件和環境建置完畢。
     
     ```bash
