@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SITE_NAME=site-3
-FILEID=1lnvo2DEq946wEJZyHx35qxnCA8-IeoU1
+FILE_LINK="https://www.dropbox.com/scl/fi/h8wnm9dslyu426ztx1g9s/site-3-datas.zip?rlkey=axzitjfuffo05z205fh6v76a5&dl=1"
 FILENAME=${SITE_NAME}-datas.zip
 
 # 添加deadsnakes PPA並安裝Python 3.8
@@ -44,9 +44,11 @@ echo "source rsna/bin/activate"
 
 cd ~
 
-wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=${fileid}' -O- | sed -rn 's/.confirm=([0-9A-Za-z_]+)./\1\n/p')&id=${FILEID}" -O ${FILENAME} && \rm -rf /tmp/cookies.txt
+wget -O "${FILENAME}" ${FILE_LINK}
 
-rm -r ${SITE_NAME}-datas
+if [ -d "${SITE_NAME}-datas" ]; then
+    rm -r "${SITE_NAME}-datas"
+fi
 
 # Unzip
 unzip -q ${FILENAME}
